@@ -1,0 +1,91 @@
+body{
+    background-color: #E5FDD1 !important;
+}
+
+.piechart{
+    margin-left: 61px;
+    margin-top: 10%;
+    float:bottom;
+}
+.pie-text{
+    margin-top:1.2%;
+    margin-left: 100px;
+    text-align: justify;
+    width: 200px;
+    margin-right: 100;
+}
+.container{
+    position: relative;
+}
+.graph{
+    margin-left: 45%;
+    margin-top: -19%;
+    float:bottom;
+}
+.graph-text{
+    margin-left: 45%;
+    margin-top: 0%;
+    float:bottom;
+}
+
+.zoom:hover{
+    transform: scale(1.5);
+    transition: all .5s ease-in-out;
+    
+}
+.text{
+    text-align: center;
+}
+#expense-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #E5FDD1;
+    border-radius: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+  }
+  
+  #add-expense-button {
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #expenses-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #expenses-list li {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .container-fluid{
+    padding :0 15%;
+  }
+
+  .formstock{
+    margin-top: 50%;
+  }
